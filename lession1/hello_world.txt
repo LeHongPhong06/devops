@@ -1,0 +1,23 @@
+hello anh Bang, hello anh em F8 minh` tao file demo nhe
+
+==================================================
+FILE CẤU HÌNH MẪU - NANO TEST FILE
+==================================================
+
+[General]
+AppName=NanoTestApp
+Version=1.0.0
+Environment=Development
+
+[Server]
+Host=127.0.0.1
+Port=8080
+DebugMode=true
+
+[Notes]
+- Kiểm tra dán văn bản (Paste) nhiều dòng.
+- Kiểm tra ký tự đặc biệt: ! @ # $ % ^ & * ( ) _ +
+- Kiểm tra hiển thị tiếng Việt có dấu: "Chúc bạn thao tác thành công!"
+
+================================================
+

@@ -1,0 +1,7 @@
+- Tạo file main.py và Dockerfile trong folder lession4 (nano hoặc IDE)
+- Cập nhật nội dung cho 2 file
+- Bật docker desktop
+- Thực hiện lệnh để build docker image: "docker build -t lession4:v1 ."
+- Chạy docker container:
+  - Chạy trên docker desktop sẽ hiển thị "hello F8, hello anh em" trong tab log nếu không có lỗi
+  - Ở terminal của IDE thực hiện lệnh: "docker run lession4:v1" cũng sẽ hiển thị "hello F8, hello anh em" hay bên dưới dòng lệnh khi chạy thành công không có lỗi

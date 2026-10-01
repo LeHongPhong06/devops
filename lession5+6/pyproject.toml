@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fastapi-production"
+version = "0.1.0"
+description = "FastAPI application with Python 3.14"
+authors = ["Admin <admin@example.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.14"
+fastapi = "^0.115.0"
+uvicorn = {extras = ["standard"], version = "^0.32.0"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
